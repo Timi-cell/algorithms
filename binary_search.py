@@ -24,4 +24,4 @@ def binary_search(array, search_item):
 
 
 my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(binary_search(my_array, 5))
+print(binary_search(my_array, 7))
