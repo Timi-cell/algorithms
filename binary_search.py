@@ -8,7 +8,7 @@ def binary_search(array, search_item):
     high = len(array) - 1
     # creating a while loop to check if the search_item is found in the array
     while low <= high:
-        mid = (low + high)
+        mid = int((low + high)/2)
         guess = array[mid]
         if guess == search_item:
             # return the index of the search_item
